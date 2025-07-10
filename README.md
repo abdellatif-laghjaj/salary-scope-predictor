@@ -7,9 +7,9 @@
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Status](https://img.shields.io/badge/status-active-brightgreen.svg)
 
-*An intelligent salary prediction tool for software developers powered by machine learning*
+_An intelligent salary prediction tool for software developers powered by machine learning_
 
-[🚀 Live Demo](#-getting-started) • [📊 Features](#-features) • [🔧 Installation](#-installation) • [📖 Usage](#-usage)
+[🚀 Live Demo](https://salary-scope-predictor.streamlit.app/) • [📊 Features](#-features) • [🔧 Installation](#-installation) • [📖 Usage](#-usage)
 
 </div>
 
@@ -48,16 +48,19 @@
 ## ✨ Features
 
 ### 🎯 Core Functionality
+
 - **Salary Prediction**: Get accurate salary estimates based on your profile
 - **Interactive Filters**: Filter by country, education level, and experience
 - **Real-time Results**: Instant predictions with confidence indicators
 
 ### 📊 Data Exploration
+
 - **Interactive Dashboards**: Explore salary trends across different dimensions
 - **Beautiful Visualizations**: Charts and graphs using Plotly
 - **Statistical Insights**: Comprehensive data analysis and patterns
 
 ### 🛠️ Technical Features
+
 - **Machine Learning**: Random Forest regression model
 - **Data Processing**: Automated data cleaning and preprocessing
 - **Model Persistence**: Trained models saved for quick loading
@@ -89,35 +92,41 @@ salary-scope-predictor/
 ## 🔧 Installation
 
 ### Prerequisites
+
 - Python 3.13 or higher
 - uv package manager (recommended) or pip
 
 ### Quick Start
 
 1. **Clone the repository**
+
    ```bash
-   git clone https://github.com/yourusername/salary-scope-predictor.git
+   git clone https://github.com/abdellatif-laghjaj/salary-scope-predictor
    cd salary-scope-predictor
    ```
 
 2. **Install dependencies**
-   
+
    Using uv (recommended):
+
    ```bash
    uv sync
    ```
-   
+
    Using pip:
+
    ```bash
    pip install -r requirements.txt
    ```
 
 3. **Prepare the data and model**
+
    ```bash
    python prepare_assets.py
    ```
 
 4. **Launch the application**
+
    ```bash
    streamlit run app.py
    ```
@@ -138,6 +147,7 @@ salary-scope-predictor/
 ### 📊 Exploring Data
 
 Navigate to the **Explore** page to:
+
 - View salary distributions by country
 - Analyze education level impact on earnings
 - Explore experience vs. salary trends
@@ -167,12 +177,14 @@ The application uses data from the **Stack Overflow Annual Developer Survey**, w
 ## 🤖 Model
 
 ### Algorithm: Random Forest Regressor
+
 - **Type**: Ensemble learning method
 - **Advantages**: Handles non-linear relationships, robust to outliers
 - **Features**: Country (encoded), Education Level (encoded), Years of Experience
 - **Performance**: Optimized for accuracy and generalization
 
 ### Model Training Process
+
 1. **Data Preprocessing**: Label encoding for categorical variables
 2. **Feature Scaling**: Normalize numerical features
 3. **Train-Test Split**: 80/20 split for validation
@@ -184,18 +196,21 @@ The application uses data from the **Stack Overflow Annual Developer Survey**, w
 ## 📱 Streamlit App
 
 ### 🏠 Main Page (`app.py`)
+
 - Clean, intuitive interface for salary prediction
 - Real-time input validation
 - Beautiful result display with metrics
 - Error handling and user feedback
 
 ### 📊 Explore Page (`pages/explore.py`)
+
 - Interactive data visualization dashboard
 - Multiple chart types (histograms, scatter plots, box plots)
 - Dynamic filtering capabilities
 - Statistical summaries and insights
 
 ### 🎨 UI/UX Features
+
 - **Responsive Design**: Works on desktop and mobile
 - **Modern Styling**: Clean, professional appearance
 - **Interactive Elements**: Sliders, dropdowns, buttons
@@ -209,18 +224,21 @@ The application uses data from the **Stack Overflow Annual Developer Survey**, w
 The project includes comprehensive analysis in `main.ipynb`:
 
 ### 📈 Exploratory Data Analysis
+
 - Data distribution analysis
 - Correlation studies
 - Feature importance analysis
 - Outlier detection and handling
 
 ### 📊 Visualizations
+
 - Salary distribution by country
 - Education level impact analysis
 - Experience vs. salary correlation
 - Geographic salary mapping
 
 ### 🎯 Model Evaluation
+
 - Cross-validation results
 - Feature importance rankings
 - Prediction accuracy metrics
@@ -231,12 +249,15 @@ The project includes comprehensive analysis in `main.ipynb`:
 ## 🚀 Deployment
 
 ### Local Development
+
 ```bash
 streamlit run app.py
 ```
 
 ### Production Deployment
+
 The application can be deployed on:
+
 - **Streamlit Cloud**: Direct deployment from GitHub
 - **Heroku**: Using the provided `pyproject.toml`
 - **Docker**: Containerized deployment
@@ -249,6 +270,7 @@ The application can be deployed on:
 We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
 
 ### Development Process
+
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
 3. Commit your changes (`git commit -m 'Add amazing feature'`)
@@ -256,6 +278,7 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 5. Open a Pull Request
 
 ### Code Standards
+
 - Follow PEP 8 style guidelines
 - Add docstrings to functions
 - Include unit tests for new features
