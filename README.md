@@ -9,7 +9,7 @@
 
 _An intelligent salary prediction tool for software developers powered by machine learning_
 
-![Salary Predictor Demo](screenshots/demo.gif)
+![Salary Predictor Demo](assets/demo.gif)
 
 </div>
 
@@ -160,16 +160,16 @@ Navigate to the **Explore** page to:
 
 ### 🏠 Main Application Interface
 
-![alt text](image.png)
+![Main Application Interface](assets/main-page.png)
 
 ### 📊 Data Exploration Dashboard
 
-![alt text](image-1.png)
-![alt text](image-2.png)
+![Data Exploration Dashboard](assets/explore-page.png)
+![Interactive Visualizations](assets/charts.png)
 
 ### 💰 Prediction Results
 
-![alt text](image-3.png)
+![Prediction Results](assets/prediction-result.png)
 
 ---
 
