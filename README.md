@@ -321,8 +321,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-- **Project Maintainer**: [Your Name](mailto:your.email@example.com)
-- **Project Link**: [https://github.com/yourusername/salary-scope-predictor](https://github.com/yourusername/salary-scope-predictor)
+- **Project Maintainer**: [Abdellatif Laghjaj](mailto:abdelatiflaghjaj@gmail.com)
+- **Project Link**: [https://github.com/abdellatif-laghjaj/salary-scope-predictor](https://github.com/abdellatif-laghjaj/salary-scope-predictor)
 
 ---
 
