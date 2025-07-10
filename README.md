@@ -9,8 +9,6 @@
 
 _An intelligent salary prediction tool for software developers powered by machine learning_
 
-[🚀 Live Demo](https://salary-scope-predictor.streamlit.app/) • [📊 Features](#-features) • [🔧 Installation](#-installation) • [📖 Usage](#-usage)
-
 </div>
 
 ---
