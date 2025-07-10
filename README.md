@@ -9,6 +9,8 @@
 
 _An intelligent salary prediction tool for software developers powered by machine learning_
 
+![Salary Predictor Demo](screenshots/demo.gif)
+
 </div>
 
 ---
@@ -20,7 +22,8 @@ _An intelligent salary prediction tool for software developers powered by machin
 - [🏗️ Architecture](#️-architecture)
 - [🔧 Installation](#-installation)
 - [📖 Usage](#-usage)
-- [📊 Data](#-data)
+- [� Screenshots](#-screenshots)
+- [�📊 Data](#-data)
 - [🤖 Model](#-model)
 - [📱 Streamlit App](#-streamlit-app)
 - [🔬 Analysis](#-analysis)
@@ -150,6 +153,23 @@ Navigate to the **Explore** page to:
 - Analyze education level impact on earnings
 - Explore experience vs. salary trends
 - Interactive filtering and visualization
+
+---
+
+## 📷 Screenshots
+
+### 🏠 Main Application Interface
+
+![alt text](image.png)
+
+### 📊 Data Exploration Dashboard
+
+![alt text](image-1.png)
+![alt text](image-2.png)
+
+### 💰 Prediction Results
+
+![alt text](image-3.png)
 
 ---
 
